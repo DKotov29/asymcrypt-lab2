@@ -1,0 +1,15 @@
+[package]
+name = "asymcrypt-lab2"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+opt-level = 3
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+malachite = "0.4.4"
+rand = "0.8.4"
+bitvec = "1.0.1"
+rayon = "1.8.0"
